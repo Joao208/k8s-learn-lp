@@ -29,7 +29,7 @@ export default function Header() {
               Terminal
             </Link>
             <Link
-              href="#"
+              href="https://k8s-learn.joaobarros.dev/"
               className="bg-primary/10 text-primary px-6 py-2 rounded-full hover:bg-primary/20 transition-colors"
             >
               Get Started

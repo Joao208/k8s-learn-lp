@@ -37,14 +37,15 @@ export default function Hero() {
           Create, manage, and explore Kubernetes clusters without installing
           anything.
         </motion.p>
-        <motion.button
+        <motion.a
+          href="https://k8s-learn.joaobarros.dev/"
           className="bg-primary text-background text-base px-8 py-2.5 rounded-full hover:bg-primary/90 transition-colors"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
           Start Learning Now
-        </motion.button>
+        </motion.a>
       </div>
     </section>
   );

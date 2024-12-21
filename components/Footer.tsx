@@ -23,10 +23,10 @@ export default function Footer() {
         </div>
         <div className="relative h-32 w-full overflow-hidden">
           <div
-            className="absolute w-full text-center text-[12rem] font-bold leading-none"
-            style={{ bottom: "-45%" }}
+            className="absolute w-full text-center text-[4rem] sm:text-[5rem] md:text-[6rem] lg:text-[7rem] xl:text-[8rem] font-bold leading-none"
+            style={{ bottom: "-15%" }}
           >
-            <span className="bg-gradient-to-t from-transparent via-foreground/5 to-foreground/15 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-t from-transparent via-foreground/5 to-foreground/15 bg-clip-text text-transparent whitespace-nowrap">
               K8s Learn
             </span>
           </div>

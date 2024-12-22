@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Terminal from "@/components/Terminal";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -9,7 +8,6 @@ export default function Home() {
       <Header />
       <main className="relative">
         <Hero />
-        <Terminal />
       </main>
       <Footer />
     </div>
